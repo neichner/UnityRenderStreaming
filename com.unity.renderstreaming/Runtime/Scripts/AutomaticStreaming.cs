@@ -26,6 +26,8 @@ namespace Unity.RenderStreaming
 
             videoStreamSender = gameObject.AddComponent<VideoStreamSender>();
             videoStreamSender.source = VideoStreamSource.Screen;
+            Debug.Log("Setting max bit rate to 25000 kbps and start bit rate to 2500 kbps");
+            videoStreamSender.SetBitrate(2500, 25000);
             videoStreamSender.SetTextureSize(new Vector2Int(Screen.width, Screen.height));
             broadcast.AddComponent(videoStreamSender);
 

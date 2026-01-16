@@ -1,5 +1,11 @@
 # Unity Render Streaming
 
+Currently testing it out on Unity 6000.0. Minor changes to get it working. Added package by using:
+
+```
+https://github.com/neichner/UnityRenderStreaming.git?path=com.unity.renderstreaming
+```
+
 <img src="https://img.shields.io/badge/unity-2020.3-green.svg?style=flat-square" alt="unity 2020.3">
 <img src="https://img.shields.io/badge/unity-2021.3-green.svg?style=flat-square" alt="unity 2021.3">
 <img src="https://img.shields.io/badge/unity-2022.2-green.svg?style=flat-square" alt="unity 2022.3">
@@ -15,11 +21,11 @@ Please see [Requirements](com.unity.renderstreaming/Documentation~/index.md#requ
 
 ### License
 
-- `com.unity.renderstreaming` -  [LICENSE.md](com.unity.renderstreaming/LICENSE.md)
+- `com.unity.renderstreaming` - [LICENSE.md](com.unity.renderstreaming/LICENSE.md)
 
-- `com.unity.template.renderstreaming-hd` -  [LICENSE.md](com.unity.template.renderstreaming-hd/Packages/com.unity.template.renderstreaming-hd/LICENSE.md)
+- `com.unity.template.renderstreaming-hd` - [LICENSE.md](com.unity.template.renderstreaming-hd/Packages/com.unity.template.renderstreaming-hd/LICENSE.md)
 
-- `com.unity.template.renderstreaming-rtx` -  [LICENSE.md](com.unity.template.renderstreaming-rtx/Packages/com.unity.template.renderstreaming-rtx/LICENSE.md)
+- `com.unity.template.renderstreaming-rtx` - [LICENSE.md](com.unity.template.renderstreaming-rtx/Packages/com.unity.template.renderstreaming-rtx/LICENSE.md)
 
 ## Repository Structure
 
@@ -35,23 +41,23 @@ Please see [Requirements](com.unity.renderstreaming/Documentation~/index.md#requ
 
 ## Roadmap
 
-| Version | Focus | When |
-| ------- | ----- | ----- |
-| `1.0.0-preview` | - First release | Aug 2019 |
-| `1.1.0-preview` | - Upgrade HDRP version 5.16 | Sep 2019 |
-| `1.2.0-preview` | - *Unity 2019.3* support | Feb 2020 |
-| `2.0.0-preview` | - Multi camera <br/>- DirectX12 (DXR) Support | Apr 2020 |
-| `2.1.0-preview` | - *Unity 2019.4* support <br/>- Add bitrate control sample | Aug 2020 |
-| `2.2.0-preview` | - Add video receiver <br/>- HDRP/URP on Linux support | Nov 2020 |
-| `3.0.0-preview` | - iOS platform support <br/>- AR Foundation sample | Mar 2021 |
-| `3.1.0-exp.1` | - Android platform support | Jun 2021 |
-| `3.1.0-exp.2` | - Audio Renderer support <br/> - Multiplay sample <br/> - M1 Mac support | Dec 2021 |
-| `3.1.0-exp.3` | - Fix bugs | Feb 2022 |
-| `3.1.0-exp.4` | - Streaming settings API <br/> - *Unity 2022.1* support <br/> - Remove *Unity 2019.4* from support list | Oct 2022 |
-| `3.1.0-exp.5` | - Fix bugs | Jan 2023 |
-| `3.1.0-exp.6` | - Streaming Settings Window <br/> - Auto Configuration <br/> - Command line option | Feb 2023 |
-| `3.1.0-exp.7` | - Fix bugs | Jul 2023 |
-| `3.1.0-exp.8` | - Fix bugs | Nov 2023 |
+| Version         | Focus                                                                                                   | When     |
+| --------------- | ------------------------------------------------------------------------------------------------------- | -------- |
+| `1.0.0-preview` | - First release                                                                                         | Aug 2019 |
+| `1.1.0-preview` | - Upgrade HDRP version 5.16                                                                             | Sep 2019 |
+| `1.2.0-preview` | - _Unity 2019.3_ support                                                                                | Feb 2020 |
+| `2.0.0-preview` | - Multi camera <br/>- DirectX12 (DXR) Support                                                           | Apr 2020 |
+| `2.1.0-preview` | - _Unity 2019.4_ support <br/>- Add bitrate control sample                                              | Aug 2020 |
+| `2.2.0-preview` | - Add video receiver <br/>- HDRP/URP on Linux support                                                   | Nov 2020 |
+| `3.0.0-preview` | - iOS platform support <br/>- AR Foundation sample                                                      | Mar 2021 |
+| `3.1.0-exp.1`   | - Android platform support                                                                              | Jun 2021 |
+| `3.1.0-exp.2`   | - Audio Renderer support <br/> - Multiplay sample <br/> - M1 Mac support                                | Dec 2021 |
+| `3.1.0-exp.3`   | - Fix bugs                                                                                              | Feb 2022 |
+| `3.1.0-exp.4`   | - Streaming settings API <br/> - _Unity 2022.1_ support <br/> - Remove _Unity 2019.4_ from support list | Oct 2022 |
+| `3.1.0-exp.5`   | - Fix bugs                                                                                              | Jan 2023 |
+| `3.1.0-exp.6`   | - Streaming Settings Window <br/> - Auto Configuration <br/> - Command line option                      | Feb 2023 |
+| `3.1.0-exp.7`   | - Fix bugs                                                                                              | Jul 2023 |
+| `3.1.0-exp.8`   | - Fix bugs                                                                                              | Nov 2023 |
 
 ## FAQ
 
